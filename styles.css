@@ -1,0 +1,308 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+a{
+  color: #fff;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  float: right;
+}
+
+li {
+  display: inline;
+  margin: 0 2rem;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 7rem 0 7rem 0;
+}
+
+h2 {
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 7rem 0 7rem 0;
+}
+
+h3 {
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h4 {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  margin: 2rem auto;
+}
+
+/* Navigation bar */
+.navbar-dark .nav-link .navbar-brand {
+  color: #33cccc;
+}
+
+.navbar {
+  width: 50%;
+  z-index: 1;
+  float:right;
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+
+}
+
+.container-md {
+  padding: 3% 5% 12%;
+}
+
+.header-bar {
+  padding: 1% 5% ;
+  position: fixed;
+  background-color: #99e6e6;
+  width: 100%;
+  z-index: 1;
+}
+.col-lg-6 {
+  margin: 3rem 0 0;
+}
+
+/* download button */
+.download-button {
+  margin: 3rem 3rem 3rem 0;
+}
+
+.btn:hover {
+  background-color: #33cccc;
+}
+
+.about-icon {
+  color: #99e6e6;
+  font-size: 2rem;
+}
+
+.about-icon:hover {
+  color: #33cccc;
+}
+
+.courses-column {
+  padding: 3% 2%;
+}
+
+.fa-twitter {
+  margin: 2%;
+}
+
+.fa-facebook {
+  margin: 2%;
+}
+
+.fa-instagram {
+  margin: 2%;
+}
+
+.fa-envelope {
+  margin: 2%;
+}
+
+.fa-linkedin {
+  margin: 2%;
+}
+
+.footer-link, .footer-text {
+  color: #fff;
+}
+
+#navigation {
+  color: #33cccc;
+  width: 100%;
+  z-index: 1;
+  padding: 3% 10% 0;
+  position: fixed;
+}
+
+#title {
+  background: url("./Landing.jpg") fixed center;
+  background-size: cover;
+  color: #33cccc;
+  padding: 3% 10% 0;
+}
+
+#about {
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  position: relative;
+}
+
+#courses {
+  padding: 50px 50px 0;
+  text-align: center;
+  background-color: #99e6e6;
+  position: relative;
+}
+
+#cta {
+  background-color: #fff;
+  color: #8f8f8f;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  text-align: center;
+  padding: 3% 15%;
+  background-color: #33cccc;
+}
+
+/* Sign-up form */
+* {
+  box-sizing: border-box
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 60%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  /* float: left; */
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  text-align:center;
+  margin: auto;
+  color: #000;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  /* left: 0;
+  top: 0; */
+  width: 50%;
+  /* Full width */
+  height: 80%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 10px;
+  margin: 5% 25%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 5% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #33cccc;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #33cccc;
+  margin-bottom: 5px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+  .modal{
+    width:100%;
+  }
+}

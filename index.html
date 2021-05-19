@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>EdZest</title>
+
+  <!-- Google docs -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Java Scipt for Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-bar">
+      <a class="navbar-brand" href="">EdZest</a>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" aria-current="true">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+
+
+
+  <section id="title">
+
+    <div class="container-md">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Empowering decision making through education</h1>
+
+          <button type="button" class="btn btn-dark" onclick="document.getElementById('id01').style.display='block'">Sign-up</button>
+          <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <form class="modal-content" action="/action_page.php">
+              <div class="container">
+                <h3>Sign Up</h3>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+                <label for="email"><b>Email</b></label><br>
+                <input type="text" placeholder="Enter Email" name="email" required><br>
+
+                <label for="psw"><b>Password</b></label><br>
+                <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label><br>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+                <label>
+                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                <div class="clearfix">
+                  <button type="submit" class="signupbtn">Sign Up</button>
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+
+  </section>
+
+
+  <section id="about">
+
+    <div class="row">
+
+
+      <div class="col-lg-4">
+        <i class="about-icon fas fa-check-circle"></i>
+        <h4>Accessible</h4>
+        <p>Navigate through myriads of content features easily</p>
+      </div>
+
+      <div class="col-lg-4">
+        <i class="about-icon fas fa-bullseye"></i>
+        <h4>Relevant</h4>
+        <p>Benefit from extensive research based contents</p>
+      </div>
+
+      <div class="col-lg-4">
+        <i class="about-icon fas fa-heart"></i>
+        <h4>Comprehensive</h4>
+        <p> Explore the notes, revision programs, tests, and many more</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- Courses -->
+
+  <section id="courses">
+
+
+    <div class="row">
+
+      <div class="courses-column col-lg-4 col-md-6">
+        <div class="card">
+
+
+          <div class="card-header">
+            <h4>Webinars</h4>
+          </div>
+          <div class="card-body">
+            <h3>Free</h3>
+            <p>Free webinars</p>
+            <p>Notes and flash cards</p>
+            <p>WhatsApp community</p>
+            <!-- login form -->
+            <button type="button" class="btn btn-dark " onclick="document.getElementById('id01').style.display='block'">Sign-up</button>
+            <div id="id01" class="modal">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Sign Up</h1>
+                  <p>Please fill this form to create an account.</p>
+                  <hr>
+
+                  <div class="courses-column col-lg-4 col-md-6">
+                    <ul>
+                      <li><label for="email"><b>E-mail</b></label></li>
+                      <li><label for="psw"><b>Password</b></label></li>
+                      <li><label for="psw-repeat"><b>Repeat Password</b></label></li>
+                    </ul>
+
+                  </div>
+
+                  <div class="courses-column col-lg-4 col-md-6">
+
+                    <ul>
+
+                      <li><input type="text" placeholder="Please enter your e-mail" name="email" required></li>
+                      <li><input type="password" placeholder="Select a password" name="psw" required></li>
+                      <li><input type="password" placeholder="Repeat the password" name="psw-repeat" required></li>
+
+                    </ul>
+                  </div>
+
+
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+
+
+
+                  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                  <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- The Modal (contains the Sign Up form) -->
+
+        </div>
+
+      </div>
+
+      <div class="courses-column col-lg-4 col-md-6">
+        <div class="card">
+
+
+          <div class="card-header">
+            <h4>Live Classes</h4>
+          </div>
+          <div class="card-body">
+            <h3>Interactive</h3>
+            <p>Pay upon completion of modules</p>
+            <p>Complementary question bank</p>
+            <p>Free e-book download</p>
+            <button type="button" class="btn btn-dark " onclick="document.getElementById('id01').style.display='block'">Sign-up</button>
+            <div id="id01" class="modal">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Sign Up</h1>
+                  <p>Please fill in this form to create an account.</p>
+                  <hr>
+                  <label for="email"><b>Email</b></label><br>
+                  <input type="text" placeholder="Enter Email" name="email" required><br>
+
+                  <label for="psw"><b>Password</b></label><br>
+                  <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+                  <label for="psw-repeat"><b>Repeat Password</b></label><br>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                  </label>
+
+                  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                  <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="courses-column col-lg-4">
+        <div class="card">
+
+          <div class="card-header">
+            <h4>Online Modules</h4>
+          </div>
+          <div class="card-body">
+            <h3>Flexible</h3>
+            <p>Video modules</p>
+            <p>Full length exams for practice</p>
+            <p>Quizzes and games</p>
+
+            <button type="button" class="btn btn-dark " onclick="document.getElementById('id01').style.display='block'">Sign-up</button>
+            <div id="id01" class="modal">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                  <h1>Sign Up</h1>
+                  <p>Please fill in this form to create an account.</p>
+                  <hr>
+                  <label for="email"><b>Email</b></label><br>
+                  <input type="text" placeholder="Enter Email" name="email" required><br>
+
+                  <label for="psw"><b>Password</b></label><br>
+                  <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+                  <label for="psw-repeat"><b>Repeat Password</b></label><br>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                  </label>
+
+                  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms of Privacy</a>.</p>
+
+                  <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Join the community and get started</h3>
+
+    <button type="button" class="btn btn-dark btn-lg" onclick="document.getElementById('id01').style.display='block'">Sign-up</button>
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content" action="/action_page.php">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+          <label for="email"><b>Email</b></label><br>
+          <input type="text" placeholder="Enter Email" name="email" required><br>
+
+          <label for="psw"><b>Password</b></label><br>
+          <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+          <label for="psw-repeat"><b>Repeat Password</b></label><br>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+          <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+
+    <a class="footer-link" href="https://www.facebook.com/edzest"><i class="fab fa-facebook fa-2x"></i></a>
+    <a class="footer-link" href="https://www.instagram.com/ed_zest/"><i class="fab fa-instagram fa-2x"></i>
+      <a class="footer-link" href="https://www.linkedin.com/company/edzest"><i class="fab fa-linkedin fa-2x"></i></a>
+
+
+
+      <p class="footer-text">EdZest Education Services (OPC) Pvt. Ltd.</p>
+
+  </footer>
+
+  <script src="response.js"></script>
+</body>
+
+</html>
